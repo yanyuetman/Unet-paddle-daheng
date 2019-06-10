@@ -2,7 +2,6 @@
 Daheng dataset Segmentation  Task implement on paddlepaddle
 
 """
-.
 |-- Unet-paddle
 |   |-- daheng_best_model
 |   |   `-- best_end
