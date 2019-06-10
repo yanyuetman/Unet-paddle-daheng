@@ -145,9 +145,8 @@ def main():
                           fetch_list=[pred.name, miou.name])
              total_miou +=np.mean(results[1])
              prediction = np.argmax(results[0][0], axis=0)
-             #submission_mask = prediction * 255
              print(np.mean(results[1]))
-             #cv2.imwrite(os.path.join(save_dir, save_name[-1].replace('jpg','png')), prediction)
+             #cv2.imwrite(os.path.join(save_dir, save_name[-1].replace('jpg','png')), prediction) save prediction images
     print(total_miou / it)
                 
 
