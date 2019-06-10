@@ -53,3 +53,10 @@ python ./daheng_train.py \
 
 # Test
 CUDA_VISIBLE_DEVICES=0,1,2 sh test.sh
+
+python ./daheng_test.py \
+    -test_file ./daheng/test_list.txt \
+    -model_path ./best_end \
+    -data_dir ./daheng/ \
+    -pre_savedir ./save_pre_image/ 
+
