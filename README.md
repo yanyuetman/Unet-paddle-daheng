@@ -3,13 +3,13 @@ Daheng dataset Segmentation  Task implement on paddlepaddle
 
 # Data_files
 ├── daheng                      //
-│   ├── images
-│          ├──白点
-│          ├──黑点
-│          ├──漏涂
-│          ├──异物
-│          ├──小白线
-│          ├──烧伤
+   ├── images
+          ├──白点
+          ├──黑点
+          ├──漏涂
+          ├──异物
+          ├──小白线
+          ├──烧伤
 │          ├──孔或透明
 │          ├──其他
 │        
