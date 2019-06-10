@@ -1,7 +1,8 @@
 # Unet-paddle-daheng
 Daheng dataset Segmentation  Task implement on paddlepaddle
-
-"""
+```
+.
+|-- 1.txt
 |-- Unet-paddle
 |   |-- daheng_best_model
 |   |   `-- best_end
@@ -37,8 +38,7 @@ Daheng dataset Segmentation  Task implement on paddlepaddle
     |   `-- 孔或透明
     |-- test_list.txt
     `-- train_list.txt
-
-"""
+```
 
 # Train
 CUDA_VISIBLE_DEVICES=0,1,2 sh train.sh
