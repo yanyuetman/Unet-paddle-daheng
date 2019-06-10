@@ -45,9 +45,9 @@ CUDA_VISIBLE_DEVICES=0,1,2 sh train.sh
 python ./daheng_train.py \
     -train_file ./daheng/train_list.txt \
     -valid_file ./test_list.txt \
-    -save_model ./daheng_model \
-    -save_infer ./daheng_infer save infer model path \
-    -pretrain_model ./best_end pretrain model path \
+    -save_model ./daheng_model (save model param path)\
+    -save_infer ./daheng_infer (save infer model path) \
+    -pretrain_model ./best_end (pretrain model path) \
     -data_dir ./daheng/ 
 
 
@@ -56,7 +56,7 @@ CUDA_VISIBLE_DEVICES=0 sh test.sh
 
 python ./daheng_test.py \
     -test_file ./daheng/test_list.txt \
-    -model_path ./best_end best model path for predict \
+    -model_path ./best_end (best model path for predict) \
     -data_dir ./daheng/ \
     -pre_savedir ./save_pre_image/ 
 
